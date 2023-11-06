@@ -67,6 +67,7 @@ sr.reveal('.projects',{});
 sr.reveal('.card',{interval:500}); 
 
 sr.reveal('.education',{interval:200});
+sr.reveal('.publications',{interval:200});
 
 sr.reveal('.skills',{}); 
 sr.reveal('.skill-1',{}); 
@@ -109,11 +110,11 @@ sr.reveal('.connect2',{delay:400});
           ["PROBLEM SOLVING"], "RESEARCH", "DISCIPLINE" ],
         datasets: [{
           label: "Scale",
-          backgroundColor: "rgba(40,255,40,0.2)",
+          backgroundColor: "rgba(250,224,103,0.2)",
           // backgroundColor: "rgba(255, 99, 132, 0.3)",
-          borderColor: "rgba(5, 56, 107, 1)",
+          borderColor: "rgba(192,139,233,1)",
           pointBackgroundColor: chartColors.red,
-          data: [85,80,90,80,90]
+          data: [85,85,95,85,95]
         }, ]
       },
       options: {
@@ -141,7 +142,7 @@ sr.reveal('.connect2',{delay:400});
             showLabelBackdrop: false // hide square behind text
           },
           pointLabels: {
-            fontColor: 'rgba(5, 56, 107, 0.8)', // labels around the edge like 'Running'
+            fontColor: 'black', // labels around the edge like 'Running'
             
           },
           gridLines: {
